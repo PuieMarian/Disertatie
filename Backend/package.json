@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "mongoose": "^6.2.1",
+    "nodemon": "^2.0.15"
+  },
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Disertatie app",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "heroku-postbuild": "cd frontend && npm install && npm run build"
+  },
+  "author": "Puie Marian",
+  "license": "ISC"
+}

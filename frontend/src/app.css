@@ -1,0 +1,135 @@
+.card{
+    width: 130px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+label{
+    width: max-content;
+    color: rgb(179, 111, 28);
+    font-size: 6px;
+    border-bottom: 0.5px solid bisque ;
+    margin: 1.5px 0;
+}
+
+.desc{
+   font-size: 9px; 
+}
+
+.star{
+    color: gold;
+    font-size: 9px;
+}
+
+.username{
+    font-size: 9px;
+}
+
+.date{
+    font-size: 9px;
+}
+
+.place{
+    font-size: 9px;
+}
+
+form{
+    width: 100px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+input{
+    border: none;
+    border-bottom: 0.5px whitesmoke;
+}
+
+input::placeholder, textarea::placeholder{
+    font-size: 9px;
+}
+
+.submitButton{
+    border: none;
+    padding: 3px;
+    border-radius: 3px;
+    color: whitesmoke;
+    background-color: rgb(155, 161, 95);
+    cursor: pointer;
+}
+
+.button{
+    border: none;
+    padding: 3px;
+    border-radius: 3px;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.logout{
+    background-color: rgb(197, 201, 172);;
+    margin-right: 10px;
+}
+
+.login{
+    background-color: #9babcc;
+    margin-right: 10px;
+    
+}
+.register{
+    background-color: rgb(169, 154, 185);
+    margin-right: 10px;
+    
+}
+
+.butons,.logout{
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+
+.mapboxgl-ctrl{
+    background-color: #cfd8d8;
+    position: relative;
+    top: 50px;
+    margin-right: 10px;
+}
+
+.mapboxgl-ctrl-scale{
+    top: 30px;
+    right: 0;
+    left: 10px;
+}
+
+.mapboxgl-user-location-dot:before {
+    content: "";
+    position: absolute;
+    animation: mapboxgl-user-location-dot-pulse 2s infinite;
+    
+}
+
+.mapboxgl-user-location-dot, .mapboxgl-user-location-dot:before {
+    background-color: #2d89c2;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+}
+
+.mapboxgl-user-location-dot:after {
+    border-radius: 50%;
+    border: 2px solid #fff;
+    content: "";
+    height: 19px;
+    left: -2px;
+    position: absolute;
+    top: -2px;
+    width: 19px;
+    box-sizing: border-box;
+    box-shadow: 0 0 3px rgb(0 0 0 / 35%);
+}
+
+
+
